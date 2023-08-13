@@ -1,0 +1,533 @@
+
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ottclub - тестове завдання</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body> 
+    <div class="banner">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner d-flex align-items-center justify-content-between">
+                    <a href="/" class="header__logo">
+                        <img src="image/header/logo.svg" class="header__logo-icon" alt="">
+                    </a>
+                    <div class="header__right d-flex align-items-center justify-content-between">
+                        <div class="header__social-links d-flex d-sm-none">
+                            <a href="#" class="header__social-link">
+                                <svg viewBox="0 0 24 24" width="24">
+                                    <use xlink:href="image/header/fb.svg#facebook" />
+                                </svg>
+                            </a>
+                            <a href="#" class="header__social-link">
+                                <svg viewBox="0 0 24 24" width="24">
+                                    <use xlink:href="image/header/telegram.svg#telegram" />
+                                </svg>
+                            </a>
+                        </div>
+                        <a href="/" class="registration-link d-sm-none">Регистрация</a>
+                        <a href="/" class="login-link btn btn-outline-white btn-small">Войти</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+ 
+        <div class="banner__inner">
+            <div class="banner__top d-flex">
+                <div class="banner__block">
+                    <div class="container">
+                        <div class="banner__content">
+                            <h1 class="banner__title title-h1">
+                                Более 270 телеканалов в прямом эфире
+                            </h1>
+                            <img src="image/banner/banner__img.png" class="banner__img-mobile" alt="banner">
+                            <div class="banner__text block-subtitle">
+                                Национальные, познавательные, детские, кино, спортивные, новостные и многие другие каналы
+                            </div>
+                            <a href="/" class="banner__btn btn--red btn btn-medium">
+                                Протестировать 7 дней бесплатно
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner__image">
+                    <picture>
+                        <source type="image/webp" srcset="image/banner/banner__img.webp">
+                        <img loading="lazy" src="image/banner/banner__img.png" alt="баннер" srcset="image/banner/banner__img2x.png 2x">
+                    </picture>
+                </div>
+            </div>
+            <div class="banner__advantages">
+                <div class="container">
+                    <div class="banner__advantages-blocks row justify-content-between">
+                        <div class="banner__advantages-block">
+                            <div class="banner__advantages-icon">
+                                <svg viewBox="0 0 96 96" width="96">
+                                    <use xlink:href="image/advantages/gift.svg#gift" />
+                                </svg>
+                            </div>
+                            <div class="banner__advantages-content">
+                                <div class="banner__advantages-title">
+                                    Бесплатный тест
+                                </div>
+                                <div class="banner__advantages-text">
+                                    7 дней бесплатного тестового просмотра
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__advantages-block">
+                            <div class="banner__advantages-icon">
+                                <svg viewBox="0 0 96 96" width="96">
+                                    <use xlink:href="image/advantages/device.svg#device" />
+                                </svg>
+                            </div>
+                            <div class="banner__advantages-content">
+                                <div class="banner__advantages-title">
+                                    5 устройств = 1 подписка
+                                </div>
+                                <div class="banner__advantages-text">
+                                    Подключайте 5 устройств в одной подписке
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__advantages-block">
+                            <div class="banner__advantages-icon">
+                                <svg viewBox="0 0 96 96" width="96">
+                                    <use xlink:href="image/advantages/tv.svg#tv" />
+                                </svg>
+                            </div>
+                            <div class="banner__advantages-content">
+                                <div class="banner__advantages-title">
+                                    Архив трансляций
+                                </div>
+                                <div class="banner__advantages-text">
+                                    Смотрите 7 дней телеэфирав записи
+                                </div>
+                            </div>
+                        </div>
+                        <div class="banner__advantages-block">
+                            <div class="banner__advantages-icon">
+                                <svg viewBox="0 0 96 96" width="96">
+                                    <use xlink:href="image/advantages/earth.svg#earth" />
+                                </svg>
+                            </div>
+                            <div class="banner__advantages-content">
+                                <div class="banner__advantages-title">
+                                    Без привязки к месту
+                                </div>
+                                <div class="banner__advantages-text">
+                                    Смотрите любимые фильмы и передачи в любой точке мира
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bg-middle-block">
+        <div class="pricing">
+            <div class="container">
+                <div class="pricing__inner">
+                    <div class="pricing__content">
+                        <div class="pricing__blocks">
+                            <div class="pricing__block one">
+                                <div class="pricing__title">
+                                    <span class="pricing__title--big">1€</span> / МЕСЯЦ
+                                </div>
+                                <div class="pricing__text">
+                                    Покупая подписку более, чем на 6 месяцев
+                                </div>
+                            </div>
+                            <div class="pricing__block two">
+                                <ul class="pricing__advantages-items">
+                                    <li class="pricing__advantages-item">Более 270 каналов</li>
+                                    <li class="pricing__advantages-item">127 FullHD каналов</li>
+                                    <li class="pricing__advantages-item">Режим Ultra TV Sport</li>
+                                    <li class="pricing__advantages-item">Архив каналов</li>
+                                    <li class="pricing__advantages-item">5 устройств</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <form action="" class="pricing__form">
+                            <input type="email" class="pricing__form-input" placeholder="Email">
+                            <button type="submit" class="pricing__form-btn btn btn--red">Подключить тариф</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="channels">
+            <div class="container">
+                <div class="channels__inner">
+                    <div class="channels__header">
+                        <h2 class="channels__title title-h2"><span>ТВ - каналы</span></h2>
+                        <div class="channels__subtitle block-subtitle">
+                            Национальные, познавательные, детские, кино, спортивные, новостные и многие другие телеканалы
+                        </div>
+                    </div>
+                    <div class="channels__filter d-flex">
+                        <div data-id="1" class="channels__filte-btn active">Популярные</div>
+                        <div data-id="2" class="channels__filte-btn">Национальные</div>
+                        <div data-id="3" class="channels__filte-btn">Познавательные</div>
+                        <div data-id="4" class="channels__filte-btn">Кино</div>
+                        <div data-id="5" class="channels__filte-btn">Спорт</div>
+                        <div data-id="6" class="channels__filte-btn">Детские</div>
+                        <div data-id="7" class="channels__filte-btn">Музыкальные</div>
+                        <div data-id="8" class="channels__filte-btn">Новостные</div>
+                    </div>
+                    <div class="channels__blocks">
+                        <div data-id="1" class="channels__block">
+                            <div class="channels__items d-flex">
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-red">
+                                        <img loading="lazy" src="image/channels/1+1.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-blue">
+                                        <img loading="lazy" src="image/channels/zoomHD.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-green">
+                                        <img loading="lazy" src="image/channels/ukrainer1.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-violet">
+                                        <img loading="lazy" src="image/channels/move.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-yellow">
+                                        <img loading="lazy" src="image/channels/tet.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-blue">
+                                        <img loading="lazy" src="image/channels/inter.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-green">
+                                        <img loading="lazy" src="image/channels/novuy.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-violet">
+                                        <img loading="lazy" src="image/channels/ictv.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-green">
+                                        <img loading="lazy" src="image/channels/m1.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-violet">
+                                        <img loading="lazy" src="image/channels/2+2.png" alt="channel-logo" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-blue">
+                                        <img loading="lazy" src="image/channels/zoomHD.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-green">
+                                        <img loading="lazy" src="image/channels/ukrainer1.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="channels__footer">
+                                <span class="channels__items-more">
+                                    Показать все
+                                </span>
+                            </div>
+                        </div>
+                        <div data-id="2" class="channels__block">
+                            <div class="channels__items d-flex">
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-red">
+                                        <img loading="lazy" src="image/channels/1+1.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-blue">
+                                        <img loading="lazy" src="image/channels/zoomHD.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-green">
+                                        <img loading="lazy" src="image/channels/ukrainer1.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-violet">
+                                        <img loading="lazy" src="image/channels/move.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-yellow">
+                                        <img loading="lazy" src="image/channels/tet.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-blue">
+                                        <img loading="lazy" src="image/channels/inter.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="channels__footer">
+                                <span class="channels__items-more">
+                                    Показать все
+                                </span>
+                            </div>
+                        </div>
+                        <div data-id="3" class="channels__block">
+                            <div class="channels__items d-flex">
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-red">
+                                        <img loading="lazy" src="image/channels/1+1.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-blue">
+                                        <img loading="lazy" src="image/channels/zoomHD.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-green">
+                                        <img loading="lazy" src="image/channels/ukrainer1.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-violet">
+                                        <img loading="lazy" src="image/channels/move.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-yellow">
+                                        <img loading="lazy" src="image/channels/tet.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-yellow">
+                                        <img loading="lazy" src="image/channels/tet.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                                <div class="channels__item">
+                                    <div class="channels__item-inner bg-yellow">
+                                        <img loading="lazy" src="image/channels/tet.png" alt="channel-log" class="channels__item-logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="channels__footer">
+                                <span class="channels__items-more">
+                                    Показать все
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divices">
+            <div class="divices__blocks d-flex align-items-center">
+                <div class="divices__inner">
+                    <div class="container">
+                        <div class="divices__block one">
+                            <div class="divices__block-header">
+                                <h2 class="divices__title title-h2">Смотрите на разных устройствах</h2>
+                                <div class="divices__subtitle block-subtitle">
+                                    Подключайте подписку FULL и смотрите любимые каналына 5 устройствах, среди которых: телевизор, компьютер, планшет или смартфон
+                                </div>
+                            </div>
+                            <img loading="lazy" src="image/divices/devices-mobile.png" alt="" class="divices__img-mobile">
+                            <a href="#" class="btn btn--red divices__btn btn btn--red">
+                                Протестировать 7 дней бесплатно
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divices__block two">
+                    <div class="divices__image">
+                        <picture>
+                            <!-- <source type="image/webp" srcset="image/divices/devices__img.webp"> -->
+                            <!-- <source type="image/webp" srcset="image/divices/devices-medium.webp" media="(max-width: 1500px)"> -->
+                            <source srcset="image/divices/devices-medium.png" media="(max-width: 1199px)" />
+                            <img loading="lazy" src="image/divices/devices__img.png" alt="" srcset="image/divices/devices__img2x.png 2x">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="divices__brands">
+                <div class="container">
+                    <div class="divices__logos">
+                        <div class="divices__logo">
+                            <img loading="lazy" src="image/divices/lg.svg" alt="">
+                        </div>
+                        <div class="divices__logo">
+                            <img loading="lazy" src="image/divices/apple.svg" alt="">
+                        </div>
+                        <div class="divices__logo">
+                            <img loading="lazy" src="image/divices/Android_tv.svg" alt="">
+                        </div>
+                        <div class="divices__logo">
+                            <img loading="lazy" src="image/divices/samsung.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-footer-block">
+        <div class="faq">
+            <div class="container">
+                <h2 class="faq__title title-h2">
+                    Популярные вопросы
+                </h2>
+                <div class="faq__blocks d-flex justify-content-between">
+                    <div class="faq__block">
+                        <div class="faq__items">
+                            <div class="faq__item">
+                                <div class="faq__item-header d-flex justify-content-between">
+                                    <div class="faq__item-title">Как подключить подписку OTTCLUB или продлить ее?</div> 
+                                </div>
+                                <div class="faq__item-body">
+                                    <div class="faq__item-content">
+                                        Какая необходима скорость соединения для стабильного просмотра каналов? Какая необходима скорость соединения для стабильного просмотра каналов? 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="faq__item-header d-flex justify-content-between">
+                                    <div class="faq__item-title">Как смотреть одновременно на разных устройствах?</div>
+                                </div>
+                                <div class="faq__item-body">
+                                    <div class="faq__item-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nunc ut libero tristique pharetra vel finibus nisi. Maecenas eu nulla enim. Etiam sit amet sem sed turpis aliquet rhoncus eget eu velit
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__item">
+                                <div class="faq__item-header d-flex justify-content-between">
+                                    <div class="faq__item-title">Какая скорость соединения необходима для просмотра каналов?</div>
+                                </div>
+                                <div class="faq__item-body">
+                                    <div class="faq__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq__block">
+                        <div class="faq__item">
+                            <div class="faq__item-header d-flex justify-content-between">
+                                <div class="faq__item-title">Как смотреть на телевизоре Samsung?</div>
+                            </div>
+                            <div class="faq__item-body">
+                                <div class="faq__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nunc ut libero tristique pharetra vel finibus nisi. Maecenas eu nulla enim.</div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__item-header d-flex justify-content-between">
+                                <div class="faq__item-title">Как посмотреть передачу, которая была в эфире ранее?</div>
+                            </div>
+                            <div class="faq__item-body">
+                                <div class="faq__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nunc ut libero tristique pharetra vel finibus nisi. Maecenas eu nulla enim. Etiam sit amet sem sed turpis aliquet rhoncus eget eu velit</div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__item-header d-flex justify-content-between">
+                                <div class="faq__item-title">Как работает бесплатный тестовый период?</div>
+                            </div>
+                            <div class="faq__item-body">
+                                <div class="faq__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vel nunc ut libero tristique pharetra vel finibus nisi. Maecenas eu nulla enim.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__blocks d-flex justify-content-between">
+                        <div class="footer__block left">
+                            <div class="footer__links">
+                                <a href="#" class="footer__link">О нас</a>
+                                <a href="#" class="footer__link">Пользовательское соглашение</a>
+                                <a href="#" class="footer__link">Политика конфиденциальности</a>
+                                <a href="#" class="footer__link">ТВ-Каналам</a>
+                                <a href="#" class="footer__link">Проверка скорости</a>
+                                <a href="#" class="footer__link">Правила оформления подписки</a>
+                            </div>
+                        </div>
+                        <div class="footer__block right">
+                            <div class="footer__phones">
+                                <div class="footer__block-title">Помощь</div>
+                                <div class="footer__links">
+                                    <a href="tel:+442045772169" class="footer__link">+442045772169 (Англия)</a>
+                                    <a href="tel:+420255708953" class="footer__link">+420255708953 (Европа)</a>
+                                    <a href="tel:+97233751723" class="footer__link">+97233751723 (Израиль)</a>
+                                    <a href="mailto:support@ottclub.cc" class="footer__link">support@ottclub.cc</a>
+                                </div>
+                            </div>
+                            <div class="footer__chats">
+                                <div class="footer__chats-title">Чат-поддержка</div>
+                                <div class="footer__chats-items d-flex">
+                                    <a href="#" class="footer__chats-item">
+                                        <svg viewBox="0 0 40 40" width="40">
+                                            <use xlink:href="image/footer/whatsapp.svg#whatsapp" />
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="footer__chats-item">
+                                        <svg viewBox="0 0 40 40" width="40">
+                                            <use xlink:href="image/footer/telegram.svg#telegram" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__payments d-flex align-items-center">
+                        <div class="footer__payment">
+                            <img src="image/footer/visa.svg" alt="">
+                        </div>
+                        <div class="footer__payment">
+                            <img src="image/footer/master-card.svg" alt="">
+                        </div>
+                        <div class="footer__payment">
+                            <img src="image/footer/free-kassa.png" alt="">
+                        </div>
+                        <div class="footer__payment">
+                            <img src="image/footer/pay-sera.svg" alt="">
+                        </div>
+                        <div class="footer__payment">
+                            <img src="image/footer/sepa.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="footer__copyright">
+                        <span class="footer__copyright-text">&copy; 2021-2022 COMPANY NAME</span>
+                        <span class="footer__copyright-text">Company number 1221514</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/style.js"></script>
+</body>
+</html>
